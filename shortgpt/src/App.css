@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom right, #4caf50, #2196f3);
+  /* Gradient background */
+}
+
+.app-container {
+  text-align: center;
+}
+
+.chat-container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Semi-transparent white background for chat container */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.chat-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.avatar-icon {
+  background-color: #64b5f6;
+  /* Avatar background color */
+}
+
+.user-avatar {
+  background-color: #4caf50;
+  /* User avatar color */
+}
+
+.bot-avatar {
+  background-color: #2196f3;
+  /* Bot avatar color */
+}
+
+.message-text {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+  background-color: #eeeeee;
+  /* Message background color */
+}
+
+.chat-input-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
